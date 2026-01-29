@@ -99,7 +99,7 @@ spec:
         imagePullPolicy: IfNotPresent
         volumeMounts:
         - mountPath: /mnt/models
-          name: kserve-provision-locations
+          name: kserve-provision-location
     containers:
       - name: main
         env:
