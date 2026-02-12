@@ -24,6 +24,8 @@ spec:
               fieldPath: metadata.namespace
         - name: SECURE
           value: "false"
+        - name: PROVIDER
+          value: sa-tokens
         # Note: By default, uses in-memory storage (ephemeral - data lost on restart).
         # For persistent storage, use one of the overlays:
         #   - deployment/overlays/tls-backend-disk (single replica, file-based)
